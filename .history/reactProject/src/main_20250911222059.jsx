@@ -7,6 +7,5 @@ import './index.css'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Cards name="test"/>
-    <Cards name="test 2"/>
   </StrictMode>,
 )

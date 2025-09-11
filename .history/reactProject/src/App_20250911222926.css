@@ -2,7 +2,6 @@
   width: 100%;
   display: flex;
    flex-direction: row ;  
-   column-gap: 10px;
   justify-content: center;
   align-items: center;
   min-height: 100vh; /* make sure it's vertically centered */
@@ -22,9 +21,4 @@
   align-items: center;
   font-family: sans-serif;
   gap: 10px; /* spacing between image & text */
-}
-
-.card-container:hover{
-  box-shadow: 10px 10px 10px rgba(0,0,0,0.1);
-  cursor: pointer;
 }

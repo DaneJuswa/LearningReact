@@ -1,0 +1,10 @@
+body{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.card-container{
+  width: 150px;
+  height: 200px;
+  background-color: aquamarine;
+}

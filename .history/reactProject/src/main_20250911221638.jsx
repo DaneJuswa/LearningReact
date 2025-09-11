@@ -1,12 +1,11 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import Cards from './Cards.jsx'
+import Cards from './card.jsx'
 import './index.css'
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Cards name="test"/>
-    <Cards name="test 2"/>
+  <Cards />
   </StrictMode>,
 )

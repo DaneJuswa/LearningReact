@@ -1,0 +1,12 @@
+body{
+  display: flex;
+   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: pink;
+}
+.card-container{
+  width: 150px;
+  height: 200px;
+  background-color: aquamarine;
+}
