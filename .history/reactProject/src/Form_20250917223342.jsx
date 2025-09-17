@@ -7,7 +7,7 @@ function Form(){
     const [color, setColor] = useState()
     
     const handleUsername = (event) =>{
-        setUsername(event.target.value)
+        setUsername("Mark")
     }
 
     return(
