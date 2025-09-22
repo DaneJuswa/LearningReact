@@ -12,6 +12,7 @@ function Form(){
 
     return(
         <>
+            <div ></div>
             <input type="text" value={username}  placeholder="enter name" onChange={handleUsername} />
             <p>Username : {username}</p>
             <input type="color" value={color} name="" id="" />
